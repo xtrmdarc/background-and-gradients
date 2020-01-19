@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-hero {
+  background: url('https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg') no-repeat;
+  background-position-y: 100%;
+  height: 450px;
+  padding: 60px;
+  padding-right: 100px;
+  padding-left: 100px;
+  width: 100%;
+}
+
+#navigation-bar {
+  margin-top: 40px;
+}
+
+#navigation-bar ul {
+  font-size: 12px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(#808080, #5e5e5e,#707070);
+  color: white;
+  margin: 20px;
+  border-radius: 7px;
+  border: 1px solid #5e5e5e;
+}
+
+#navigation-bar ul li {
+  display: inline;
+  padding: 10px;
+  border-right: 1px solid #5e5e5e;
+  width: 100%;
+  text-align: center;
+}
+
+#navigation-bar ul li:last-child {
+  border-right: 0;
+}
+/* #navigation-bar ul li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px; 
+}*/
