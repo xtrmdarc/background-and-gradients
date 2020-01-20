@@ -32,6 +32,32 @@ section {
   color: white;
 }
 
+#nav-search-bar input[type="text"]{
+  border-radius: 10px;
+  background: inherit;
+  border: 1px solid #5e5e5e;
+  box-shadow: -1px -3px black; 
+  padding-left: 20px;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAQAAABedl5ZAAAAzklEQVQYlWNgAIP%2F9v%2FrwVCfARn85%2F%2B%2F%2Fz8CzEeS%2BnMQJPL0%2Ba37796DJfsZ4EYBwar9DBkMCQwFR86DJeXBUo%2F6QToYHCAKtaO%2Bf%2F%2F%2F%2F3kmmHNm%2Fv%2F%2FD27CTee4c%2Ff%2F%2F2vT4VKfXiM5CQg2t4M5lckQd%2F3nB0n8vQji5HhCFEpArP73AeGF35dACkEgYPtxmODXnxueg2igbqikh3l%2F1%2FpV%2B7vWyzUwxHatB%2BvcBLNfgMEA6AEDBg4g26Br%2FffvqeUMWIEBULcEdikGkG4AzGOfgUQC7TUAAAAASUVORK5CYII%3D');
+  background-repeat: no-repeat;
+  background-position-x: 4px;
+  background-position-y: center;
+  background-size: auto 100%;
+}
+#nav-search-bar input[type="text"]:focus{
+  width: 180px;
+  background-color: white;
+  outline: none;
+  background-position-y: 2px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGJhc2VQcm9maWxlPSJmdWxsIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4bWxuczpldj0iaHR0cDovL3d3dy53My5vcmcvMjAwMS94bWwtZXZlbnRzIj4KPGc%2BCgk8cG9seWdvbiBmaWxsPSIjNjY2IiBwb2ludHM9IjkuMjA3LDYuMTI2IDcuNzkzLDcuNTQxIDExLjc5MywxMS41NDEgMTMuMjA3LDEwLjEyNiIgLz4KCTxwYXRoIGZpbGw9IiM2NjYiIGQ9Ik01LjkxNywyYzEuNjA4LDAsMi45MTcsMS4zMDgsMi45MTcsMi45MTdTNy41MjUsNy44MzMsNS45MTcsNy44MzNTMyw2LjUyNSwzLDQuOTE3UzQuMzA4LDIsNS45MTcsMgoJCSBNNS45MTcsMEMzLjIwMSwwLDEsMi4yMDEsMSw0LjkxN3MyLjIwMSw0LjkxNyw0LjkxNyw0LjkxN3M0LjkxNy0yLjIwMSw0LjkxNy00LjkxN0MxMC44MzMsMi4yMDEsOC42MzIsMCw1LjkxNywwTDUuOTE3LDB6IiAvPgo8L2c%2BCjwvc3ZnPgo%3D');
+}
+
+.apple-logo {
+  background: url('http://pngimg.com/uploads/apple_logo/apple_logo_PNG19673.png') no-repeat;
+  background-size: 18% auto;
+  background-position:center;
+}
+
 #main-hero h1 {
   font-size: 60px;
   margin-bottom: 20px;
@@ -60,6 +86,11 @@ section {
   border-right: 1px solid #5e5e5e;
   width: 100%;
   text-align: center;
+}
+
+#navigation-bar ul li:hover{
+  background-color: #38383863;
+  cursor: pointer;
 }
 
 #navigation-bar ul li:last-child {
