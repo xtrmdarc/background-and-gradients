@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p, label, h1, h2, h3 {
+  font-weight: 100;
+  font-style: normal;
 }
 
 section {
@@ -16,11 +21,21 @@ section {
   padding: 60px;
   padding-right: 100px;
   padding-left: 100px;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#main-hero h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 #navigation-bar {
-  margin-top: 40px;
+  margin-top: 20px;
+  width: 100%;
+  color: white;
 }
 
 #navigation-bar ul {
@@ -29,10 +44,9 @@ section {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(#808080, #5e5e5e,#707070);
-  color: white;
   margin: 20px;
   border-radius: 7px;
-  border: 1px solid #5e5e5e;
+  
 }
 
 #navigation-bar ul li {
@@ -46,8 +60,19 @@ section {
 #navigation-bar ul li:last-child {
   border-right: 0;
 }
-/* #navigation-bar ul li {
-  display: inline-block;
-  padding-left: 10px;
-  padding-right: 10px; 
-}*/
+
+#hero-text {
+  padding-right: 70px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+.hero-caption {
+  font-size: 30px;
+  margin: 0;
+}
+
+.hero-action {
+  font-size: 20px;
+  margin-top: 40px;
+}
