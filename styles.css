@@ -4,7 +4,12 @@ body {
   font-family: 'Montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-p, label, h1, h2, h3 {
+a {
+  text-decoration: none;
+  color: rgb(0, 153, 255);
+}
+
+p, label, h1, h2, h3 , li {
   font-weight: 100;
   font-style: normal;
 }
@@ -92,6 +97,14 @@ section {
   background-position-x: -20px;
 }
 
+#feature-block div:last-child {
+  margin-right: 0;
+}
+
+#feature-block div:first-child {
+  margin-left: 0;
+}
+
 #feature-1 {
   background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5s.jpg');
   background-position-x: -30px;
@@ -108,4 +121,59 @@ section {
 
 #feature-4 {
   background-image: url('https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg');
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  font-size: 10.3px;
+  margin-top: 16px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 20px;
+  
+}
+
+footer p, footer li, footer label, footer span {
+  font-weight: 400;
+  color: #5e5e5e;
+}
+
+#footer-left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-left-column p {
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.piped {
+  color: inherit;
+  margin: 0;
+}
+
+.piped li {
+  display: inline;
+  color: inherit;
+  border-left: 1px solid #a1a1a19c;
+  margin-left: 4px;
+  padding-left: 4px;
+}
+
+.piped li:first-child {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.li-img {
+  position: relative;
+}
+
+.li-img img{
+  position: absolute;
+  top: -2px;
 }
