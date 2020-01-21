@@ -109,8 +109,15 @@ section {
 }
 
 .hero-action {
+  display: inline-block;
   font-size: 20px;
   margin-top: 40px;
+  z-index: 10;
+}
+
+.hero-action:hover {
+  cursor: pointer;
+  border-bottom: 1px solid white;
 }
 
 #feature-block {
