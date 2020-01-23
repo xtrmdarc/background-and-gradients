@@ -67,9 +67,14 @@ section {
   margin-top: 20px;
   width: 100%;
   color: white;
+  position: absolute;
+  top: 11%;
+  display: flex;
+  justify-content: center;
 }
 
 #navigation-bar ul {
+  width: 78%;
   font-size: 12px;
   padding: 0px;
   display: flex;
@@ -101,6 +106,7 @@ section {
   padding-right: 70px;
   padding-left: 70px;
   text-align: center;
+  margin-top: 80px;
 }
 
 .hero-caption {
@@ -113,6 +119,18 @@ section {
   font-size: 20px;
   margin-top: 40px;
   z-index: 10;
+}
+
+.hero-action span {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  background-image: url('https://i.ya-webdesign.com/images/play-icon-white-png.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  width: 20px;
+  height: 20px;
 }
 
 .hero-action:hover {
